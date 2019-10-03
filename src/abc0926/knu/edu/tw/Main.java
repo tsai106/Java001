@@ -9,9 +9,9 @@ import java.net.InetAddress;
 public class Main {
     public static void main(String[] args){
         try {
-            final int PORT = 8000;
+            final int PORT = 6000;
             DatagramSocket ds = new DatagramSocket();
-            InetAddress addr = InetAddress.getByName("10.2.8.162");
+            InetAddress addr = InetAddress.getByName("10.2.8.50");
             String s;
         do {
             BufferedReader keyin;
